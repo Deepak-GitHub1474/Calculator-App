@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container{
+  position: relative;
+}
+
+.phone-img{
+  height: 88vh;
+  width: 104vh;
+}
+
+.main {
+  background-color: #000000;
+  height: 67vh;
+  text-align: center;
+  border-radius: 8px;
+  position: absolute;
+  top: 4.8rem;
+  left: 20.8rem;
+}
+
+.display {
+  height: 16vh;
+  width: 20vw;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.btn>* {
+  height: 55px;
+  width: 55px;
+  background-color: #121111;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 8px;
+  font-size: 24px;
+}
+
+.clear, .percentage, .delete, .divide, .multiply, .minus, .plus{
+  background-color: #343232;
+}
+
+.equal {
+  background-color: #f5470d;
+  color: #ffffff;
+}
